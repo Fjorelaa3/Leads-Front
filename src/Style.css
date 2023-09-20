@@ -1,0 +1,360 @@
+.App{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.sidebar {
+    height: 100vh;
+    background-color:#002140;
+    overflow-x: hidden;
+}
+
+.dyshi{
+margin-right: 10px;
+width:calc(100vw - 256px);
+}
+
+.img-sidebar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-sidebar{
+margin-top: 10px;
+display: flex;
+justify-content: center;
+}
+
+.big-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 9px;
+}
+
+.first{
+    flex: 7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    width:99%;
+}
+
+.statusValue{
+    color: #fff;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.statusName {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: normal;
+    max-width: 100%;
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240,79,78);
+    padding: 30px;
+    margin: 5px;
+    display:flex;
+    border-radius: 10px;
+    flex-grow: 1;
+    flex-basis: 0px;
+    transition: transform .2s;
+}
+
+
+.second {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    width:99%;
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+}
+
+.right{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    justify-content: center;
+}
+
+button{
+    background-color: #71cf48;;
+    color: #fff;
+    align-items: center;
+    border: 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 400;
+    height: 32px;
+    justify-content: center;
+    letter-spacing: 0;
+    opacity: 1;
+    overflow: hidden;
+    padding: 0 10px;
+    text-transform: none;
+    cursor: pointer;
+}
+
+.filter button{
+    background-color: #1264a3;
+    margin-right: 20px;
+}
+
+.full-screen button{
+    background-color: #1264a3;
+    margin-right: 5px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+.icon {
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1264a3;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.icon > svg {
+    height: 20px;
+    width: 20px;
+}
+
+#option-no-show {
+    display: none;
+}
+
+.divider{
+    margin: 0 7px;
+    width: 1px;
+    height: 100%;
+    background: #115b94;
+}
+
+.save .divider{
+    background:  #69c243;
+}
+
+.new-lead .divider{
+    background:  #69c243;
+}
+
+.btn-sidebar button{
+    background:transparent;
+    border: 1px solid #ccc;
+}
+
+.btn-sidebar .divider{
+    background:transparent;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.back button{
+    background: transparent;
+}
+
+.ant-select-arrow svg{
+    fill:black;
+}
+
+.ant-menu-light.ant-menu-submenu>.ant-menu{
+    background-color: #002140;
+    color:white;
+    border-radius: 0;
+    border: 1px;
+}
+.ag-theme{
+    margin-left: 10px !important;
+    width: auto !important;
+}
+
+.left-arrow button{
+background-color: transparent;
+width: 100%;
+}
+
+.other{
+    width:calc(100vw - 256px);
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 55px;
+    color: rgb(27, 100, 209);
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+.kanban-board {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+}
+
+.column {
+    display: flex; 
+    flex-direction: column;  
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    height: 80vh;
+    flex-grow: 1;
+    width: 17vw;
+    overflow-y: auto; 
+    box-shadow: 0 2px 4px #ddd;
+    background-color: #93c7f8;
+    
+}
+
+.column button{
+    background-color: #5023a3;
+    justify-content: center; 
+}
+
+.column h3 {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+  
+.card {
+    display: flex; 
+    flex-direction: column;  
+    border: 1px solid #057be9;
+    border-radius: 10px;
+    margin: 8px 0;
+    padding: 8px;
+}
+  
+.card h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-align: center;
+}
+  
+.card p {
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+}
+  
+.card button {
+    background-color: #0f94bd;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+  
+.card button:hover {
+    background-color: #83b4ac;
+}
+  
+.card:nth-child(1) {
+    background-color: #ffff99;
+}
+  
+.card:nth-child(2) {
+    background-color: #86fa86; 
+}
+  
+.card:nth-child(3) {
+    background-color: #ffcb9b; 
+}
+  
+.card:nth-child(4) {
+    background-color:#ff85c8 ;
+}
+  
+.square:hover{
+    transform: scale(1.04);
+}
+
+.all-boards{
+height: 100%;
+}
+
+.first-row,.second-row{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    height: 45vh;
+    justify-content: space-evenly;
+}
+
+.calendar,.chart,.horizontal,.complete{
+    display: flex;
+    flex-direction: row;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+}
+
+.css-cwhad8-MuiDateCalendar-root{
+    
+    background-color: #ecedee;
+    border-radius: 10px;
+}

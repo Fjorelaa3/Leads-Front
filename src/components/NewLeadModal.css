@@ -1,0 +1,32 @@
+.new-lead-button{
+    background-color:  #71cf48;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.new-lead-button:hover{
+    background-color: #6bc246 !important;
+}
+
+.new-lead-form label::before {
+    content: '*';
+    color: red;
+    margin-right: 4px;
+  }
+
+  .map-container{
+    width: 100%;
+    height: 50vh;
+  }
+
+  .places-container{
+    position: absolute;
+    top:10px;
+    left:50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    width:300px;
+  }
+
+ 

@@ -254,7 +254,7 @@ header {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 10px;
-    height: 80vh;
+    height: 73vh;
     flex-grow: 1;
     width: 17vw;
     overflow-y: auto; 
@@ -342,19 +342,69 @@ height: 100%;
     flex-direction: row;
     padding: 20px;
     height: 45vh;
-    justify-content: space-evenly;
+    gap:30px;
 }
 
-.calendar,.chart,.horizontal,.complete{
+.p1{
+width:70%;
+border-radius: 10px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+padding: 10px;
+}
+
+.chart{
+    width:26%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.calendar{
     display: flex;
     flex-direction: row;
-    background: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    border-radius: 10px;
+    height:350px ;
+}
+
+.tittle{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.emri{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.sub{
+display: flex;
+flex-direction: column;
+width: 22%;
 }
 
 .css-cwhad8-MuiDateCalendar-root{
-    
     background-color: #ecedee;
     border-radius: 10px;
+}
+
+.horizontal1,.horizontal2,.complete{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 33.3%;
+    padding: 20px;
+    justify-items: center;
+}
+
+.ff{
+    height: 350px;
+}
+
+#root > div > div.other > div > div.second-row > div.complete > div.halfD > div > canvas{
+    height: 400px !important;
+    width: 22vw !important;
+    margin-left: 40px;
 }
